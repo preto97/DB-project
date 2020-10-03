@@ -1,5 +1,7 @@
 create database pro;
 use pro;
+
+# cream tabela gen
 create table gen(
 	id int not null auto_increment primary key,
     nume_gen varchar (30) not null);
@@ -21,6 +23,7 @@ create table romane(
     
     select * from carti;
     
+	# cream tabela klient 
     create table klient(
 		id int primary key auto_increment,
         nume varchar(50),
